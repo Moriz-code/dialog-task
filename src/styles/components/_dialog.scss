@@ -1,0 +1,32 @@
+#dialogPlaceholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+
+    .overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.dialog-content {
+    z-index: 1;
+    border-radius: 5px;
+    padding: 2%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+.dialog-btn {
+    min-height: 40px;
+    border-radius: 5px;
+    padding: 0px 10px 0px 10px;
+    border: none;
+}

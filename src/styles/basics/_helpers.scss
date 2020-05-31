@@ -1,0 +1,67 @@
+// Font Sizes
+.fs12 {
+    font-size: rem(12px);
+}
+.fs14 {
+    font-size: rem(14px);
+}
+.fs16 {
+    font-size: rem(16px);
+}
+.fs18 {
+    font-size: rem(18px);
+}
+.fs20 {
+    font-size: rem(20px);
+}
+.fs22 {
+    font-size: rem(22px);
+}
+.fs24 {
+    font-size: rem(24px);
+}
+.fs26 {
+    font-size: rem(26px);
+}
+.fs28 {
+    font-size: rem(28px);
+}
+.fs30 {
+    font-size: rem(30px);
+}
+
+.size {
+    &-sm {
+        width: 30%;
+    }
+
+    &-md {
+        width: 50%;
+    }
+
+    &-lg {
+        width: 70%;
+    }
+
+    &-xl {
+        width: 90%;
+    }
+}
+
+.position {
+    &-top {
+        justify-content: flex-start;
+    }
+
+    &-center {
+        justify-content: center;
+    }
+}
+
+.display-none {
+    display: none;
+}
+
+.lock-scroll {
+    overflow: hidden;
+}
